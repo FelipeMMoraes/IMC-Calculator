@@ -18,3 +18,7 @@ function handleKeydown(event) {
     Modal.close()
   }
 }
+
+Modal.buttonClose.onclick = () => {
+  Modal.close()
+}
